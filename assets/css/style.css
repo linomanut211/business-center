@@ -9,33 +9,32 @@
     background-position: center;
     height: 70vh;
 }
-Nav {
+nav {
     display: flex;
-    background-color: red;
-    width: 100%;
-    height: 50px;
     align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    background-color: red;
 }
-.topNav {
-    width: 50%;
+
+.nav-links {
+    width: 60%;
     margin: 0 auto;
-}
-ul {
     display: flex;
-    list-style: none;
     justify-content: space-between;
 }
 
 a {
     color: white;
     font-size: 20px;
+    text-decoration: none;
 }
 .footer {
     background-color: black;
     width: 100%;
     text-align: center;
 }
-.topNav:hover{
+nav:hover{
     background-color: black;
 }
 .text-home {
@@ -122,5 +121,16 @@ a {
      }
      .image-section{
         height: 50vh;
+     }
+    nav a{
+        font-size: 14px;
+     }
+     
+     nav {
+        display: flex;
+        justify-content: space-between;
+     }
+     .nav-links{
+        width: 90%;
      }
 }
