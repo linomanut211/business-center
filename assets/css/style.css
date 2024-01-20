@@ -7,7 +7,7 @@
     background-image: url(../images/business\ center.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 70vh;
 }
 Nav {
     display: flex;
@@ -111,4 +111,16 @@ a {
 .main-content{
     width: 60%;
     margin: 50px auto;
+}
+
+@media screen and (max-width: 425px) {
+    .main-content {
+        width: 90%;   
+     }
+     .footer a{
+        font-size: 14px;
+     }
+     .image-section{
+        height: 50vh;
+     }
 }
